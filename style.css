@@ -26,6 +26,7 @@ header, footer {
 
 footer {
     margin: 20px auto;
+    text-align: center;
 }
 
 main {
@@ -44,13 +45,19 @@ main {
 
 .img-logo {
     width: 100%;
+    max-width: 600px;
+
     filter: invert(1);
 }
 
 .social {
     display: inline-block;
-    width: 90px;
-    height: 90px;
+    
+    min-width: 100px;
+    min-height: 100px;
+
+    width: 20%;
+
     background-repeat: no-repeat;
     background-size: cover;
 }
