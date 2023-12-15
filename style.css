@@ -43,14 +43,14 @@ main {
 }
 
 .img-logo {
-    width: 600px;
+    width: 100%;
     filter: invert(1);
 }
 
 .social {
     display: inline-block;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     background-repeat: no-repeat;
     background-size: cover;
 }
