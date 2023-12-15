@@ -41,12 +41,30 @@ main {
     height: 600px;
 
     margin: 0 auto;
+
+    position: relative;
 }
 
 #container {
     display: flex;
     flex-direction: column;
     min-height: 90vh;
+}
+
+#release {
+    position: absolute;
+    bottom: -50px;
+    right: 250px;
+
+    width: 300px;
+    height: 300px;
+
+    background-image: url('img/release.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    box-shadow: 4px 4px 10px 0 rgb(62, 0, 0);
 }
 
 .img-logo {
