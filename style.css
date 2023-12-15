@@ -20,13 +20,17 @@ img {
     margin: 0 auto;
 }
 
-.img-logo {
-    width: 600px;
-    filter: invert(1);
+header, footer {
+    flex: 0 0 auto;
 }
 
+footer {
+    margin: 20px auto;
+}
 
-.img-band {
+main {
+    flex: 1;
+    
     background-image: url('img/band.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -36,4 +40,39 @@ img {
     height: 600px;
 
     margin: 0 auto;
+}
+
+.img-logo {
+    width: 600px;
+    filter: invert(1);
+}
+
+.social {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.social-facebook {
+    background-image: url('./img/social-facebook.png');
+}
+
+.social-instagram {
+    background-image: url('./img/social-instagram.png');
+}
+
+.social-spotify {
+    background-image: url('./img/social-spotify.png');
+}
+
+.social-youtube {
+    background-image: url('./img/social-youtube.png');
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
