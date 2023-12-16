@@ -5,11 +5,11 @@
     #release {
         display: block;
 
-        width: 250px;
-        height: 250px;
+        width: 240px;
+        height: 240px;
 
         margin: 0 auto;
-        margin-top: 190px;
+        margin-top: 180px;
     }
 
     .social {
@@ -18,7 +18,7 @@
     }
 
     #container {
-        min-height: 90vh;
+        min-height: 100vh;
     }
 }
 
