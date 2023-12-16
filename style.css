@@ -1,3 +1,50 @@
+
+@media only screen and (max-width: 767px) {
+    /* CSS styles for mobile phones */
+
+    #release {
+        display: block;
+
+        width: 300px;
+        height: 300px;
+
+        margin: 0 auto;
+        margin-top: 230px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* CSS styles for tablets */
+
+    #release {
+        display: block;
+
+        width: 300px;
+        height: 300px;
+
+        margin: 0 auto;
+        margin-top: 300px;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    /* CSS styles for larger devices like desktops and laptops */
+
+    main {
+        background-position: center;
+    }
+        
+    #release {
+        position: absolute;
+
+        bottom: -50px;
+        right: 250px;
+
+        width: 300px;
+        height: 300px;
+    }
+}
+
 body {
     --black: #050403ff;
     --walnut-brown: #5A5045ff;
@@ -35,7 +82,6 @@ main {
     background-image: url('img/band.png');
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
 
     width: 100%;
     height: 600px;
@@ -52,13 +98,6 @@ main {
 }
 
 #release {
-    position: absolute;
-    bottom: -50px;
-    right: 250px;
-
-    width: 300px;
-    height: 300px;
-
     background-image: url('img/release.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -86,18 +125,7 @@ main {
     background-size: cover;
 }
 
-.social-facebook {
-    background-image: url('./img/social-facebook.png');
-}
-
-.social-instagram {
-    background-image: url('./img/social-instagram.png');
-}
-
-.social-spotify {
-    background-image: url('./img/social-spotify.png');
-}
-
-.social-youtube {
-    background-image: url('./img/social-youtube.png');
-}
+.social-facebook  { background-image: url('./img/social-facebook.png') ; }
+.social-instagram { background-image: url('./img/social-instagram.png'); }
+.social-spotify   { background-image: url('./img/social-spotify.png')  ; }
+.social-youtube   { background-image: url('./img/social-youtube.png')  ; }
