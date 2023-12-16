@@ -5,8 +5,8 @@
     #release {
         display: block;
 
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
 
         margin: 0 auto;
         margin-top: 230px;
@@ -15,6 +15,10 @@
     .social {
         height: 66px;
         width: 66px;
+    }
+
+    #container {
+        min-height: 90vh;
     }
 }
 
@@ -123,7 +127,6 @@ main {
 #container {
     display: flex;
     flex-direction: column;
-    min-height: 90vh;
 }
 
 #release {
