@@ -11,9 +11,14 @@
         margin: 0 auto;
         margin-top: 230px;
     }
+
+    .social {
+        height: 70px;
+        width: 70px;
+    }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) {
     /* CSS styles for tablets */
 
     #release {
@@ -24,6 +29,11 @@
 
         margin: 0 auto;
         margin-top: 300px;
+    }
+
+    .social {
+        height: 100px;
+        width: 100px;
     }
 }
 
@@ -38,7 +48,21 @@
         position: absolute;
 
         bottom: -50px;
-        right: 250px;
+        right: 2%;
+
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    /* CSS styles for wide screens */
+
+    #release {
+        position: absolute;
+
+        bottom: -50px;
+        right: 10%;
 
         width: 300px;
         height: 300px;
@@ -115,11 +139,6 @@ main {
 
 .social {
     display: inline-block;
-    
-    min-width: 100px;
-    min-height: 100px;
-
-    width: 20%;
 
     background-repeat: no-repeat;
     background-size: cover;
