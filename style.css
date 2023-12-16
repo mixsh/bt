@@ -9,7 +9,7 @@
         height: 250px;
 
         margin: 0 auto;
-        margin-top: 230px;
+        margin-top: 190px;
     }
 
     .social {
@@ -38,6 +38,10 @@
     .social {
         height: 80px;
         width: 80px;
+    }
+
+    #container {
+        min-height: 100vh;
     }
 }
 
