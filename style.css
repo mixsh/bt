@@ -116,7 +116,7 @@ footer {
 main {
     flex: 1;
     
-    background-image: url('img/band.png');
+    background-image: url('img/band-small.jpg');
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -134,7 +134,7 @@ main {
 }
 
 #release {
-    background-image: url('img/release.png');
+    background-image: url('img/release-small.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
