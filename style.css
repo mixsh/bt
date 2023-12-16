@@ -13,8 +13,8 @@
     }
 
     .social {
-        height: 70px;
-        width: 70px;
+        height: 66px;
+        width: 66px;
     }
 }
 
@@ -32,8 +32,8 @@
     }
 
     .social {
-        height: 100px;
-        width: 100px;
+        height: 80px;
+        width: 80px;
     }
 }
 
@@ -52,6 +52,11 @@
 
         width: 300px;
         height: 300px;
+    }
+
+    .social {
+        height: 100px;
+        width: 100px;
     }
 }
 
