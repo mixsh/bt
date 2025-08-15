@@ -116,7 +116,7 @@ footer {
 main {
     flex: 1;
     
-    background-image: url('img/band-small.jpg');
+    background-image: url('img/band.jpg');
     background-size: contain;
     background-repeat: no-repeat;
 
